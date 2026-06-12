@@ -1,32 +1,22 @@
 *{
     margin: 0;
- 
     padding: 0;
- 
     box-sizing: border-box;
 }
  
 body{
     font-family: Arial, Helvetica, sans-serif;
- 
     background-color: #f4f6f9;
- 
     color: #222;
 }
  
 .cabecalho{
-    background-color: #003f7d;
- 
+    background-color: #003f7d; 
     color: white;
- 
     padding: 20px 8%;
- 
     display: flex;
- 
     justify-content: space-between;
- 
     align-items: center;
- 
     position: relative;
 }
  
@@ -40,15 +30,12 @@ body{
  
 .menu{
     display: flex;
- 
     gap: 25px;
 }
  
 .menu a{
     color: white;
- 
     text-decoration: none;
- 
     font-weight: bold;
 }
  
@@ -62,63 +49,45 @@ body{
  
 .icone-menu{
     display: none;
- 
     font-size: 35px;
- 
     cursor: pointer;
- 
     color: white;
 }
  
 .banner{
     min-height: 430px;
- 
     background-image:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55))
-    url("imagens/banner.jpg");
- 
+    url("");
     background-size: cover;
- 
     background-position: center;
- 
     display: flex;
- 
     align-items: center;
- 
     padding: 40px 8%;
 }
  
 .texto-banner{
     max-width: 650px;
- 
-    color: white;
+    color: #003f7d;
 }
  
 .texto-banner h1{
     font-size: 46px;
- 
     margin-bottom: 20px;
 }
  
 .texto-banner p{
     font-size: 19px;
- 
     line-height: 1.6;
- 
     margin-bottom: 30px;
 }
  
 .botao{
     background-color: #f7941d;
- 
     color: white;
- 
     padding: 14px 28px;
- 
     border-radius: 5px;
- 
     text-decoration: none;
- 
     font-weight: bold;
 }
  
@@ -128,11 +97,8 @@ body{
  
 .sobre{
     padding: 60px 8%;
- 
     display: flex;
- 
     align-items: center;
- 
     gap: 40px;
 }
  
@@ -145,18 +111,14 @@ body{
 .diferenciais h2,
 .texto-estrutura h2{
     color: #003f7d;
- 
     font-size: 32px;
- 
     margin-bottom: 20px;
 }
  
 .texto-sobre p,
 .texto-estrutura p{
     font-size: 17px;
- 
     line-height: 1.7;
- 
     margin-bottom: 15px;
 }
  
@@ -166,41 +128,29 @@ body{
  
 .imagem-sobre img{
     background-color: white;
- 
     padding: 60px 8%;
- 
     text-align: center;
 }
  
 .cards{
     display: flex;
- 
     justify-content: center;
- 
     gap: 25px;
- 
     flex-wrap: wrap;
 }
  
 .card{
     background-color: #f4f6f9;
- 
     width: 330px;
- 
     border-radius: 12;
- 
     overflow: hidden;
- 
     text-align: left;
- 
     box-shadow: 0 4px 14px rgba(0,0,0,0.15);
 }
  
 .card img{
     width: 100%;
- 
     height: 200px;
- 
     object-fit: cover;
 }
  
@@ -210,57 +160,43 @@ body{
  
 .conteudo-card h3{
     color: #003f7d;
- 
     margin-bottom: 12px;
 }
  
 .conteudo-card p{
     line-height: 1.6;
- 
     margin-bottom: 18px
 }
  
 .conteudo-card a{
     color: #f7941d;
- 
     font-weight: bold;
- 
     text-decoration: none;
 }
  
 .diferenciais{
     padding: 60px 8%;
- 
     text-align: center;
 }
  
 .item-diferenciais{
     display: flex;
- 
     justify-content: center;
- 
     gap: 25px;
- 
     flex-wrap: wrap;
 }
  
 .item{
     background-color: white;
- 
     width: 260px;
- 
     padding: 30px;
- 
     border-radius: 10px;
- 
     border-top: 5px solid #f7941d;
- 
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
  
 .item h3{
     color: #003f7d;
- 
     margin-bottom: 10px;
 }
  
@@ -270,13 +206,9 @@ body{
  
 .estrutura{
     background-color: white;
- 
     padding: 60px 8%;
- 
     display: flex;
- 
     align-items: center;
- 
     gap: 40px;
 }
  
@@ -287,21 +219,15 @@ body{
  
 .imagem-estrutura img{
     width: 100%;
- 
     border-radius: 12px;
 }
  
 .rodape{
     background-color: #003f7d;
- 
     color: white;
- 
     padding: 35px 8%;
- 
     display: flex;
- 
     justify-content: space-between;
- 
     gap: 30px;
 }
  
@@ -316,17 +242,13 @@ body{
 @media (max-width:768px) {
     .cabecalho{
         padding: 20px;
- 
         display: flex;
- 
         justify-content: space-between;
- 
         align-items: center;
     }
  
     .icone-menu{
         display: block;
- 
         order: 2;
     }
  
@@ -336,32 +258,21 @@ body{
  
     .menu{
         display: none;
- 
         position: absolute;
- 
         top: 100%;
         left: 0;
- 
         width: 100%;
- 
         background-color: #003f7d;
- 
         flex-direction: column;
- 
         align-items: center;
- 
         gap: 0;
- 
         z-index: 10;
     }
  
     .menu a{
         width: 100%;
- 
         text-align: center;
- 
         padding: 15px;
- 
         border-top: 1px solid rgba(255,255,255,0.2);
     }
  
@@ -371,9 +282,7 @@ body{
  
     .banner{
         min-height: 360px;
- 
         text-align: center;
- 
         justify-content: center;
     }
  
@@ -387,13 +296,11 @@ body{
  
     .sobre{
         flex-direction: column;
- 
         text-align: center;
     }
  
     .estrutura{
         flex-direction: column;
- 
         text-align: center;
     }
  
@@ -407,7 +314,6 @@ body{
  
     .rodape{
         flex-direction: column;
- 
         text-align: center;
     }
 }
